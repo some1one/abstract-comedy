@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "esModuleInterop": true,
     "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -11,7 +12,7 @@
     "inlineSources": true,
     "newLine": "lf",
     "outDir": "target",
-    "types": ["node", "mocha"],
+    "types": ["node", "mocha", "lodash"],
     "typeRoots": ["./node_modules/@types", "./test-resources/ts-resources/types"]
   },
   "exclude": [
